@@ -1,0 +1,60 @@
+.comic-relief-regular {
+  font-family: "Comic Relief", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.comic-relief-bold {
+  font-family: "Comic Relief", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    border: solid;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Comic Relief";
+    background-color: pink;
+    font-size: 30px;
+    flex-wrap: wrap;
+}
+
+.nav-bar ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav-bar ul li{
+    margin-left: 10px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    height: 10rem;
+    align-items: center;
+    background-image: url(./images/glitter.jpg) ;
+    color: white;
+    text-shadow: 2px 2px black;
+    background-size: cover;
+}
+
+.Home{
+    display: flex;
+    border: 2px solid;
+    text-align: center;
+}
+
+.Home about{
+    flex-direction: row;
+}

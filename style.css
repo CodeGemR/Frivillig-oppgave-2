@@ -53,11 +53,33 @@ h1{
     display: flex;
     flex-direction: row;
     border: 2px solid;
-    width: 60%;
+    width: 100%;
     align-items: center;
     font-family: "Comic Relief";
+    position: relative;
 }
 
 .Home img{
     width: 40%;
+}
+.aboutleft{
+    width: 40%;
+}
+
+.aboutright{
+    width: 40%;
+    height: 300px;
+    justify-content: space-between;
+}
+
+#cupcake{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+#Bakers{
+    width: 300px;
+}
+
+#glittercake{
+    margin-left: 30%;
 }
